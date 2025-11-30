@@ -74,4 +74,4 @@ Since the data container files are LUKS formatted volumes all the standard crypt
 
 * These scripts don't protect memory.
 * Data stored in these volumes may have other copies of it stored in temporary locations on your filesystem by applications handling the data. Whole disk encryption is recommended in addition to data containers.
-* These data containers can't protect against the theft of data when containers are open or attacks that encryption keys from memory such as trojans, rootkits, keyloggers, etc. or attacks that can retrieve data from unencrypted or decrypted filesystem slack space.
+* These data containers can't protect against the theft of data when containers are open or attacks that acquire encryption keys from memory such as trojans, rootkits, keyloggers, RAM dumps, etc., and attacks that can retrieve data from unencrypted or decrypted filesystem slack space.
